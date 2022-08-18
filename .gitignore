@@ -36,3 +36,5 @@ yarn-error.log*
 
 # asset
 src/assets
+
+dist

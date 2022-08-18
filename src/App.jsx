@@ -1,12 +1,12 @@
-import React from 'react';
 import styles from './styles';
+import { Navbar, Footer } from "./components";
 
 const App = () => {
     return (
         <div className={"bg-primary w-full overflow-hidden"}>
             <div className={`${styles.paddingX} ${styles.flexCenter}`}>
                 <div className={`${styles.boxWidth}`}>
-                    Navbar
+                    <Navbar />
 
                 </div>
             </div>
@@ -20,8 +20,8 @@ const App = () => {
                     Testimonials
                     Clients
                     CTA
-                    Footer
                 </div>
+                <Footer />
             </div>
 
         </div>
